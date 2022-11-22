@@ -1,0 +1,58 @@
+.footersquare{
+margin: 0%;
+border-radius: 10px;
+background-color: white;
+width: 100%;
+height: 200px;
+}
+
+ h1{
+    font-size: small;
+    font-weight: bolder;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:start;
+}
+
+li{
+    font-size: small;
+    list-style-type: none;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+
+}
+
+ul{
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+
+
+.content{
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 2rem 6rem;
+    grid-template-areas: 
+    "faq paymentsmethod omnia"
+    "question method aboutus";
+
+}
+
+img{
+    height: 50px;
+}
+
+.payments{
+    display: grid;
+    grid-area: method;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 1fr 1fr;
+    margin: 0;
+}
+
+.icon{ 
+    grid-template-rows: 5px;
+}
