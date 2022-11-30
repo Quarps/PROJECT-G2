@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+    height: 100%;
+}
+
+html img {
+    background-image: url("landingpageimg.jpeg") no-repeat center;
+    background-size: cover;
+    height: 100%;
+
+}
